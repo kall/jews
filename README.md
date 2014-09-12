@@ -10,7 +10,7 @@
 * 사파리 사용자: [NinjaKit](https://github.com/os0x/NinjaKit) 플러그인을 설치합니다.
 * IE 사용자: [TrixIE](http://sourceforge.net/projects/trixiewpf45/) 플러그인을 설치합니다.
 
-[스크립트 설치](https://raw.githubusercontent.com/disjukr/jews/master/jews.js)
+[스크립트 설치](https://github.com/disjukr/jews/raw/release/jews.user.js)
 
 
 ## 기여하는 법
@@ -62,6 +62,7 @@ reporter = {
 * [ ] [노컷뉴스](http://www.nocutnews.co.kr)
 * [ ] [뉴데일리](http://www.newdaily.co.kr)
 * [ ] [뉴시스](http://www.newsis.com)
+* [x] [데일리시큐](http://dailysecu.com)
 * [ ] [데일리안](http://www.dailian.co.kr)
 * [ ] [동아일보](http://www.donga.com)
 * [ ] [디지털타임스](http://www.dt.co.kr)
@@ -71,7 +72,7 @@ reporter = {
 * [ ] [머니투데이](http://www.mt.co.kr)
 * [ ] [문화일보](http://www.munhwa.com)
 * [x] [미디어오늘](http://www.mediatoday.co.kr)
-* [ ] [블로터닷넷](http://www.bloter.net)
+* [x] [블로터닷넷](http://www.bloter.net)
 * [ ] [서울경제](http://economy.hankooki.com)
 * [ ] [서울신문](http://www.seoul.co.kr)
 * [ ] [세계일보](http://www.segye.com)
@@ -84,7 +85,7 @@ reporter = {
 * [x] [월스트리트저널](http://kr.wsj.com)
 * [ ] [이데일리](http://www.edaily.co.kr)
 * [ ] [일간스포츠](http://isplus.joins.com)
-* [ ] [전자신문](http://www.etnews.com)
+* [x] [전자신문](http://www.etnews.com)
 * [x] [조선비즈](http://biz.chosun.com)
 * [ ] [조선일보](http://www.chosun.com)
 * [ ] [중앙데일리](http://koreajoongangdaily.joins.com)
@@ -95,7 +96,7 @@ reporter = {
 * [ ] [코리아헤럴드](http://www.koreaherald.com)
 * [ ] [파이낸셜뉴스](http://www.fnnews.com)
 * [ ] [프레시안](http://www.pressian.com)
-* [ ] [한겨레](http://www.hani.co.kr)
+* [x] [한겨레](http://www.hani.co.kr)
 * [ ] [한국경제](http://www.hankyung.com)
 * [ ] [한국경제TV](http://www.wownet.co.kr)
 * [ ] [한국일보](http://www.hankookilbo.com)
