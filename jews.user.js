@@ -3,8 +3,8 @@
 // @namespace http://0xABCDEF.com/jews
 // @description just news
 // @version 0.2.0
-// @updateURL		https://raw.githubusercontent.com/kall/jews/gothic-font/jews.js
-// @downloadURL		https://raw.githubusercontent.com/kall/jews/gothic-font/jews.js
+// @updateURL		https://raw.githubusercontent.com/kall/jews/gothic-font/jews.user.js
+// @downloadURL		https://raw.githubusercontent.com/kall/jews/gothic-font/jews.user.js
 // @include http://news.kbs.co.kr/news/NewsView.do*
 // @include http://world.kbs.co.kr/*/news/news_*_detail.htm*
 // @include http://imnews.imbc.com/*
