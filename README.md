@@ -29,12 +29,12 @@
 * todo 목록은 알파벳, 가나다순 정렬을 유지하도록 합니다.
 * `jews` 객체 구현 시에 아래에 정의된 타입을 따르도록 합니다.
 * 뉴스 페이지에서 해당하는 정보가 없을 경우 `undefined`값을 채워 넣습니다.
-* `jQuery`등의 라이브러리는 해당 뉴스 페이지에서 제공하는 경우에만 사용합니다.
 
 ### `jews` 타입
 
 ```
 jews.title: string
+jews.subtitle: string
 jews.content: string // html fragment
 jews.timestamp: {
     created: Date
@@ -53,7 +53,7 @@ reporter = {
 * [x] [KBS](http://news.kbs.co.kr)
 * [x] [KBS World](http://world.kbs.co.kr)
 * [x] [MBC](http://imnews.imbc.com)
-* [x] [MBN](http://mbn.mk.co.kr)
+* [x] [MBN](http://mbn.mk.co.kr/pages/news/index.html)
 * [x] [OSEN](http://osen.mt.co.kr)
 * [x] [SBS](http://news.sbs.co.kr)
 * [ ] [YTN](http://www.ytn.co.kr)
@@ -69,7 +69,7 @@ reporter = {
 * [ ] [로이터](http://www.reuters.com)
 * [ ] [마이데일리](http://www.mydaily.co.kr)
 * [ ] [매일경제](http://www.mk.co.kr)
-* [ ] [머니투데이](http://www.mt.co.kr)
+* [x] [머니투데이](http://www.mt.co.kr)
 * [ ] [문화일보](http://www.munhwa.com)
 * [x] [미디어오늘](http://www.mediatoday.co.kr)
 * [x] [블로터닷넷](http://www.bloter.net)
