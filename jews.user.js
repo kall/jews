@@ -1292,70 +1292,6 @@ function clearStyles(element) {
     return element;
 }
 
-<<<<<<< HEAD
-window.addEventListener('load', function (e) {
-    parse(jews);
-    (function () {
-        var id = window.setTimeout('0', 0);
-        while (id--) window.clearTimeout(id);
-    })();
-    document.body.parentElement.innerHTML = [
-        '<head>',
-            '<title>', jews.title || 'jews', '</title>',
-            '<style>',
-            '@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);',
-            'body {',
-                'margin-top: 50px;',
-                'margin-bottom: 500px;',
-                'text-align: center;',
-            '}',
-            '#meta {',
-                'display: inline-block;',
-                'width: 640px;',
-            '}',
-            '#timestamp {',
-                'color: #888;',
-                'font-size: 10pt;',
-                'text-align: left;',
-            '}',
-            '#timestamp p {',
-                'margin: 0;',
-            '}',
-            '#reporters {',
-                'list-style-type: none;',
-                'text-align: right;',
-            '}',
-            '#reporters .mail {',
-                'margin-left: 8px;',
-            '}',
-            '#content {',
-                'display: inline-block;',
-                'width: 640px;',
-                'font-family: \'Nanum Gothic\', serif;',
-                'font-size: 11pt;',
-                'line-height: 1.3em;',
-                'text-align: justify;',
-            '}',
-            '#content img {',
-                'margin: 15px 0;',
-                'width: 100%;',
-                'height: auto;',
-            '}',
-            '</style>',
-            '<meta charset="utf-8">',
-        '</head>',
-        '<body>',
-            '<h1>', jews.title || 'no title', '</h1>',
-            (function () {
-                if (jews.subtitle && jews.subtitle !== '') {
-                    return '<h2>' + jews.subtitle + '</h2>';
-                } else {
-                    return '';
-                }
-            })(),
-            '<div id="meta">',
-                '<div id="timestamp">',
-=======
 if ('undefined' === typeof window) {
     module.exports = parse;
 } else {
@@ -1369,7 +1305,7 @@ if ('undefined' === typeof window) {
             '<head>',
                 '<title>', jews.title || 'jews', '</title>',
                 '<style>',
-                '@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);',
+                '@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);',
                 'body {',
                     'margin-top: 50px;',
                     'margin-bottom: 500px;',
@@ -1397,8 +1333,9 @@ if ('undefined' === typeof window) {
                 '#content {',
                     'display: inline-block;',
                     'width: 640px;',
-                    'font-family: \'Nanum Myeongjo\', serif;',
+                    'font-family: \'Nanum Gothic\', serif;',
                     'font-size: 11pt;',
+                    'line-height: 1.3em;',
                     'text-align: justify;',
                 '}',
                 '#content img {',
@@ -1412,7 +1349,6 @@ if ('undefined' === typeof window) {
             '</head>',
             '<body>',
                 '<h1>', jews.title || 'no title', '</h1>',
->>>>>>> master
                 (function () {
                     if (jews.subtitle && jews.subtitle !== '') {
                         return '<h2>' + jews.subtitle + '</h2>';
