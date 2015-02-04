@@ -87,6 +87,7 @@ jews.cleanup: function
 
 ## 지원 사이트
 
+* [x] [ITWORLD](http://www.itworld.co.kr)
 * [x] [JTBC](http://news.jtbc.joins.com)
 * [x] [KBS](http://news.kbs.co.kr)
 * [x] [KBS World](http://world.kbs.co.kr)
@@ -98,12 +99,14 @@ jews.cleanup: function
 * [x] [경향비즈](http://bizn.khan.co.kr)
 * [x] [경향신문](http://www.khan.co.kr)
 * [x] [국민일보](http://www.kmib.co.kr)
+* [x] [나우뉴스](http://nownews.seoul.co.kr)
 * [x] [노컷뉴스](http://www.nocutnews.co.kr)
 * [x] [뉴데일리](http://www.newdaily.co.kr)
 * [x] [뉴데일리경제](http://biz.newdaily.co.kr)
 * [x] [뉴시스](http://www.newsis.com)
 * [x] [데일리시큐](http://dailysecu.com)
 * [x] [데일리안](http://www.dailian.co.kr)
+* [x] [데일리한국](http://daily.hankooki.com)
 * [x] [동아일보](http://www.donga.com)
 * [x] [디지털타임스](http://www.dt.co.kr)
 * [x] [로이터](http://www.reuters.com)
@@ -121,7 +124,7 @@ jews.cleanup: function
 * [ ] [스포츠서울](http://www.sportsseoul.com)
 * [x] [스포츠조선](http://sports.chosun.com)
 * [x] [스포탈코리아](http://www.sportalkorea.com)
-* [ ] [시사IN Live](http://www.sisainlive.com)
+* [x] [시사IN Live](http://www.sisainlive.com)
 * [x] [아시아경제](http://www.asiae.co.kr)
 * [x] [아시아투데이](http://www.asiatoday.co.kr)
 * [x] [아이뉴스24](http://www.inews24.com)
