@@ -2176,65 +2176,6 @@ function clearStyles(element) {
     return element;
 }
 
-<<<<<<< HEAD
-if ('undefined' === typeof window) {
-    module.exports = parse;
-} else {
-    var run = function (e) {
-        parse(where(window.location.hostname), jews);
-        (function () {
-            var id = window.setTimeout('0', 0);
-            while (id--) window.clearTimeout(id);
-        })();
-        document.body.parentElement.innerHTML = [
-            '<head>',
-                '<title>', jews.title || 'jews', '</title>',
-                '<style>',
-                '@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);',
-                'body {',
-                    'margin-top: 50px;',
-                    'margin-bottom: 500px;',
-                    'text-align: center;',
-                '}',
-                '#meta {',
-                    'display: inline-block;',
-                    'width: 640px;',
-                '}',
-                '#timestamp {',
-                    'color: #888;',
-                    'font-size: 10pt;',
-                    'text-align: left;',
-                '}',
-                '#timestamp p {',
-                    'margin: 0;',
-                '}',
-                '#reporters {',
-                    'list-style-type: none;',
-                    'text-align: right;',
-                '}',
-                '#reporters .mail {',
-                    'margin-left: 8px;',
-                '}',
-                '#content {',
-                    'display: inline-block;',
-                    'width: 640px;',
-                    'font-family: \'Nanum Gothic\', serif;',
-                    'font-size: 11pt;',
-                    'line-height: 1.3em;',
-                    'text-align: justify;',
-                '}',
-                '#content img {',
-                    'display: block;',
-                    'margin: 15px auto;',
-                    'max-width: 100%;',
-                    'height: auto;',
-                '}',
-                '</style>',
-                '<meta charset="utf-8">',
-            '</head>',
-            '<body>',
-                '<h1>', jews.title || 'no title', '</h1>',
-=======
 function unjewsUrl() {
     var query = window.location.search;
     if (query.length) {
@@ -2254,7 +2195,7 @@ function reconstruct() {
         '<head>',
             '<title>', jews.title || 'jews', '</title>',
             '<style>',
-            '@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);',
+            '@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);',
             'body {',
                 'margin-top: 10px;',
                 'margin-bottom: 500px;',
@@ -2286,7 +2227,7 @@ function reconstruct() {
             '#content {',
                 'display: inline-block;',
                 'width: 640px;',
-                'font-family: \'Nanum Myeongjo\', serif;',
+                'font-family: \'Nanum Gothic\', serif;',
                 'font-size: 11pt;',
                 'text-align: justify;',
                 'line-height: 1.6;',
@@ -2317,7 +2258,6 @@ function reconstruct() {
             })(),
             '<div id="meta">',
                 '<div id="timestamp">',
->>>>>>> master
                 (function () {
                     var result = '';
                     var created = jews.timestamp.created;
